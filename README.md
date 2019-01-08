@@ -4,6 +4,8 @@ It will be written in Python and simply print a flight schedule to the console.
 
 Flight data will be read in from a `.txt` file and then displayed in a nicely formatted table that adapts to the given data.
 
+This project should serve as a decent introduction to the principles of MVC.
+
 ## Data format
 The flight data is stored in a comma- and line-delimited `.txt` file like so:
 
