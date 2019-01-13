@@ -2,14 +2,14 @@
 Flights is a flight schedule visualizer to be used as a learning tool for beginner programmers.
 It will be written in Python and simply print a flight schedule to the console.
 
-Flight data will be read in from a `.txt` file and then displayed in a nicely formatted table that adapts to the given data.
+Flight data will be read in from a `.csv` file and then displayed in a nicely formatted table that adapts to the given data.
 
 This project should serve as a decent introduction to the principles of MVC.
 
 ## Data format
-The flight data is stored in a comma- and line-delimited `.txt` file like so:
+The flight data is stored in a `.csv` (comma-separated) file like so:
 
-`airline`, `flight number`, `arrival time`, `departure time`, `ticket price`
+`Airline`, `Flight`, `Arrives`, `Departs`, `Fare`
 
 ## Flights program
 The flights program should run in the terminal and display the flight data in a neatly formatted table with headers for each column. The program should also offer the user a basic menu where they can choose what to display:
