@@ -1,3 +1,4 @@
+Airline,Flight,Arrives,Departs,Fare
 USAir,1269,6:15,10:57,$210
 Delta,5138,16:20,22:10,$212
 UNITED,6001,14:12,20:50,$217
