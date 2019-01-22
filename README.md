@@ -7,7 +7,7 @@ Flight data will be read in from a `.csv` file and then displayed in a nicely fo
 This project should serve as a decent introduction to the principles of MVC.
 
 ## Data format
-The flight data is stored in a `.csv` (comma-separated) file like so:
+The flight data is stored in a `.csv` (comma-separated) file with the following columns:
 
 `Airline`, `Flight`, `Arrives`, `Departs`, `Fare`
 
