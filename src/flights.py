@@ -19,14 +19,6 @@ from tables import *
 import os
 import operator
 
-
-dir_path = os.path.dirname(os.path.realpath(__file__))
-text_file = open(dir_path + "\\flights.csv", "r")
-
-data = []
-for line in text_file:
-    data.append(line.strip().split(","))
-
 def print_menu():
     print("Choose one of the options to sort by:")
     options = ["Airline", "Flight", "Arrival time", "Departure time", "Fare", "Quit"]
@@ -55,33 +47,3 @@ def main():
 
 main()
 
-'''
-def flights_menu():
-    response = ""
-    while response.lower() != "quit":
-        response = input("Select a category you would like to sort by: Airline, Flight, Arrives, Departs, Fare ").lower()  
-        i = None
-             
-        if response == "airline":
-            i = 0
-        elif response == "flight":
-            i = 1
-        elif response == "arrives":
-            i = 2
-        elif response == "departs":
-            i = 3
-        elif response == "fare":
-            i = 4
-        else:
-            continue
-        sort = data[:1] + sorted(data[1:],key=operator.itemgetter(i))
-        
-        print_table(sort)
-
-#flights_menu()
-
-
-# text_file.close()
-
-# print_table(data)
-'''
